@@ -20,13 +20,21 @@ to run you must need to:
 ###  historic data of actions
     
  - **link**
-	 - https://github.com/Primera-Generacion-AHK-Sistemas/flask_yahoo_fin
+	 - https://github.com/Primera-Generacion-AHK-Sistemas/flask_yahoo_finance
  - **to run**
 	 - python -m pip install -r requirements.txt
-            python flask_yahoo_finance_dates.py
+            python app.py
  - **information**
-	 - you can access to the historic prices of each company the actions 
-            https://flask-yahoo-fin.herokuapp.com/api/live-price?ticker=MSFT
+	 - you can access to the historic prices of each company the actions
+            Last price:
+	    https://flask-yahoo-fin.herokuapp.com/api/live-price?ticker=MSFT
+	    
+	    List of prices between start_date & end_date
+	    https://flask-yahoo-fin.herokuapp.com/api/price-between?ticker=MSFT&start_date=YYYY/MM/DD&end_date=YYYY/MM/DD
+	    
+	    List of prices between today - 365 days
+	    https://flask-yahoo-fin.herokuapp.com/api/year-today-price?ticker=MSFT
+	    
 
 
 ## Front End
