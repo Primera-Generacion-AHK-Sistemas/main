@@ -11,6 +11,7 @@ to run you must need to:
     
  - **link**
 	 - https://github.com/Primera-Generacion-AHK-Sistemas/SpringBootAuth0API
+	 - heroku deployment: https://spring-boot-auth0-api.herokuapp.com
  - **to run**
 	 - run app.class
  - **information**
