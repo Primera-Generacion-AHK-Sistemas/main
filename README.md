@@ -49,6 +49,8 @@ to run you must need to:
  - **information**
 	 - display graphs from the data of spring boot
 
+## Infraestructure
+
 ### Networking
 
  - **CloudFlare**
@@ -56,8 +58,33 @@ to run you must need to:
 	 - https://support.cloudflare.com/hc/en-us/articles/200168256-Understand-Cloudflare-Caching-Level
 	 - https://support.cloudflare.com/hc/en-us/articles/360021806811-Getting-Started-with-Cloudflare-Caching
      
-     
+### Domains
+ - **Nicar**
+   - https://nic.ar/
+     - dot AR domain 
+       - price : 540.00 AR$
+     - dot COM dot AR domain 
+       - price : 270.00 AR$
+     - dot NET dot AR domain 
+       - price : 270.00 AR$
+
+
+### Cloud Services Providers
+ - **Heroku**
+   - for testing with limited capabilities
+   - https://www.heroku.com/ 
+ - **Azure**
+   - App Service
+     - https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
+   - API Service
+     - https://azure.microsoft.com/en-us/pricing/details/api-management/
+   - Containers
+     - https://azure.microsoft.com/en-us/pricing/details/kubernetes-service/
+   - Cost Calculator
+     - https://azure.microsoft.com/en-us/pricing/calculator/
+   - Mongo DB
+     - https://www.mongodb.com/cloud/atlas
 
 ### user data store api info
 ![](Imagenes/RequestsSpringBoot.jpeg)
- -
+
