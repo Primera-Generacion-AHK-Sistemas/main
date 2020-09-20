@@ -25,8 +25,9 @@ to run you must need to:
 	 - python -m pip install -r requirements.txt
             python app.py
  - **information**
-	 - you can access to the historic prices of each company the actions
-            Last price:
+	 - access to historic prices of each company
+            
+	    Last price:
 	    https://flask-yahoo-fin.herokuapp.com/api/live-price?ticker=MSFT
 	    
 	    List of prices between start_date & end_date
