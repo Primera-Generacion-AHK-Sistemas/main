@@ -38,6 +38,10 @@ to run you must need to:
 	    https://flask-yahoo-fin.herokuapp.com/api/year-today-price?ticker=MSFT
 	    
 
+###  technical analysis
+  - **link**
+  	  - https://github.com/Primera-Generacion-AHK-Sistemas/tradingDataAndAnalisys
+
 
 ## Front End
 
