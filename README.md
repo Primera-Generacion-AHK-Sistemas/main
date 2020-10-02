@@ -43,26 +43,44 @@ to run you must need to:
   	  - https://github.com/Primera-Generacion-AHK-Sistemas/tradingDataAndAnalisys
 
 
+
+###  technical analysis only data (for testing purposes and configure graphs)
+  - **link**
+	  - https://github.com/Primera-Generacion-AHK-Sistemas/FastApi-Technical-Analysys-for-Shares
+ - **demo**
+  	  - https://pythonapiar.herokuapp.com/docs
+
+ - **to run**
+	 - ```git clone https://github.com/Primera-Generacion-AHK-Sistemas/FastApi-Technical-Analysys-for-Shares```
+	 - ```cd FastApi-Technical-Analysys-for-Shares```
+	 - ``` python3 -m pip install -r requirements.txt```
+	 -  ``` python3 uvicorn fastapp:app --reload --port 5000```
+ - **information**
+	 - made in FastApi ajusted to use with apexcharts series
+	 - to see more information about the api
+		 - http://localhost:5000/docs
+	 -to see the diferent indicators and tickers
+		 - http://localhost:5000/data
+	 - to request some indicator data about a ticker (in this case request the atx indicator of Apple)
+		 - http://localhost:5000/api?ticker=AAPL&indicator=atx
 ## Front End
 
-### auth0 angular example
-    
- - **link**
-	 - https://github.com/tomasmerencio/ahk-front-angular
- - **to run**
-	 - ng serve
- - **information**
-	 - get credential from auth0 to connect with spring boot
-     
-### dashborad angular example
+### webapp angular and auth0 
     
  - **link**
 	 - https://github.com/Primera-Generacion-AHK-Sistemas/AngularArgonDashboard
+ - **demo**
+	 - https://argenshares.herokuapp.com (the domain of heroku can be changed )
  - **to run**
+	 - git clone https://github.com/Primera-Generacion-AHK-Sistemas/AngularArgonDashboard
+	 - cd AngularArgonDashboard
+	 - npm install
 	 - ng serve
  - **information**
-	 - display graphs from the data of spring boot
-
+	 - get credential from auth0 to connect with spring boot
+	 - display graphs from the data of python apis (at the moment, in a future from spring boot)
+     
+     
 ## Infraestructure
 
 ### Networking
@@ -101,4 +119,3 @@ to run you must need to:
 
 ### user data store api info
 ![](Imagenes/RequestsSpringBoot.jpeg)
-
