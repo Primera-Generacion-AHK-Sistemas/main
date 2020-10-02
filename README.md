@@ -4,7 +4,24 @@ information about the project
 
 to run you must need to:
 
+## Front End
 
+### webapp angular and auth0 
+    
+ - **link**
+	 - https://github.com/Primera-Generacion-AHK-Sistemas/AngularArgonDashboard
+ - **demo**
+	 - https://argenshares.herokuapp.com (the domain of heroku can be changed )
+ - **to run**
+	 - git clone https://github.com/Primera-Generacion-AHK-Sistemas/AngularArgonDashboard
+	 - cd AngularArgonDashboard
+	 - npm install
+	 - ng serve
+ - **information**
+	 - get credential from auth0 to connect with spring boot
+	 - display graphs from the data of python apis (at the moment, in a future from spring boot)
+     
+     
 ## Back End
 
 ###  user data store
@@ -63,24 +80,7 @@ to run you must need to:
 		 - http://localhost:5000/data
 	 - to request some indicator data about a ticker (in this case request the atx indicator of Apple)
 		 - http://localhost:5000/api?ticker=AAPL&indicator=atx
-## Front End
 
-### webapp angular and auth0 
-    
- - **link**
-	 - https://github.com/Primera-Generacion-AHK-Sistemas/AngularArgonDashboard
- - **demo**
-	 - https://argenshares.herokuapp.com (the domain of heroku can be changed )
- - **to run**
-	 - git clone https://github.com/Primera-Generacion-AHK-Sistemas/AngularArgonDashboard
-	 - cd AngularArgonDashboard
-	 - npm install
-	 - ng serve
- - **information**
-	 - get credential from auth0 to connect with spring boot
-	 - display graphs from the data of python apis (at the moment, in a future from spring boot)
-     
-     
 ## Infraestructure
 
 ### Networking
