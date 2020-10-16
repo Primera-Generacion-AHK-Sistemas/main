@@ -57,9 +57,15 @@ to run you must need to:
 
 ###  technical analysis
   - **link**
-  	  - https://github.com/Primera-Generacion-AHK-Sistemas/tradingDataAndAnalisys
-
-
+  
+  	Trading Data And Analisys
+		https://github.com/Primera-Generacion-AHK-Sistemas/tradingDataAndAnalisys
+	
+	AHK stock market api
+		https://github.com/tomasmerencio/python_api_stock_market
+		
+		demo
+		- https://ahk-stock-market-api.herokuapp.com/docs
 
 ###  technical analysis only data (for testing purposes and configure graphs)
   - **link**
